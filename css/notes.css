@@ -3,10 +3,14 @@
 	padding: 5%;
 }
 
+#title-div {
+	color: #CA8D73;
+}
+
 #notes {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1.4em;
-	color: #ffffff;
+	color: #dddddd;
 	background: none;
 	border: 0px;
 	width: 100%;
