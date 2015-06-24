@@ -1,9 +1,9 @@
-#content-div {
+#notes-div {
 	width: 100%;
+	padding: 5%;
 }
 
 #notes {
-	padding: 5%;
 	font-weight: 300;
 	font-size: 1.4em;
 	color: #ffffff;
@@ -13,4 +13,5 @@
 	height: 100%;
 	outline: none;
 	resize: none;
+	margin-top: 15px;
 }

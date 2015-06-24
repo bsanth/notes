@@ -1,4 +1,4 @@
-var notesApp = angular.module('notesApp', ['ui.router']);
+var notesApp = angular.module('notesApp', ['ui.router', 'firebase']);
 
 notesApp.config(function($stateProvider, $urlRouterProvider) {
   
@@ -9,15 +9,15 @@ notesApp.config(function($stateProvider, $urlRouterProvider) {
   // Now set up the states
   $stateProvider
     .state('notesView', {
-      url: "/{user}/{note}",
+      url: "/{user}/{title}",
       templateUrl: "views/notes.html",
-    })
-    .state('index', {
-      url: "/index",
-      templateUrl: "views/welcome.html",
     })
 	  .state('listView', {
       url: "/{user}",
       templateUrl: "views/list.html",
+    })    
+    .state('index', {
+      url: "/index",
+      templateUrl: "views/welcome.html",
     });
 });

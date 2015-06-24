@@ -1,8 +1,8 @@
-<div id="content-div">
-	<div id="title-div">
-		
-	</div>
-	<div id="notes-div">
-		<textarea id="notes" placeholder="Notes" autofocus></textarea>
+<div id="notes-div" ng-controller="notesController">
+	<h1 id="title-div">
+		{{title}}
+	</h1>
+	<div id="note-div">
+		<textarea id="notes" placeholder="Notes" autofocus ng-model="note.text"></textarea>
 	</div>
 </div>

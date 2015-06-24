@@ -1,1 +1,8 @@
-list
+<div id="list-div" ng-controller="listController">
+	<h1>{{user}}</h1>
+	<ul>
+		<li ng-repeat="note in notes">
+			<a ng-href="#/{{user}}/{{note}}">{{note}}</a>
+		</li>
+	</ul>
+</div>

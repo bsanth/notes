@@ -1,0 +1,17 @@
+#list-div {
+	width: 100%;
+	padding: 5%;
+	font-weight: 300;
+	font-size: 1.4em;
+	color: #ffffff;
+}
+
+a, a:visited, a:hover, a:active {
+	cursor: pointer;
+	text-decoration: none;	
+	color: #0078CF;
+}
+
+ul {
+	list-style-type: none;
+}
