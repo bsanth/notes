@@ -1,10 +1,10 @@
 # notes
 quick notes app
 
-Installation:
+##Installation:##
 
 ```
-bower init
+bower install
 npm install http-server
 http-server
 ```
