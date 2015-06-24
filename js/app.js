@@ -12,12 +12,13 @@ notesApp.config(function($stateProvider, $urlRouterProvider) {
       url: "/{user}/{title}",
       templateUrl: "views/notes.html",
     })
+    .state('index', {
+      url: "/index",
+      templateUrl: "views/welcome.html",
+    })
 	  .state('listView', {
       url: "/{user}",
       templateUrl: "views/list.html",
     })    
-    .state('index', {
-      url: "/index",
-      templateUrl: "views/welcome.html",
-    });
+    ;
 });
