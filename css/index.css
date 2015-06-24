@@ -1,0 +1,27 @@
+*{
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	background: #1E1E1E;
+}
+
+#content-div {
+	width: 100%;
+}
+
+#notes {
+	padding: 5%;
+	font-weight: 300;
+	font-size: 1.4em;
+	color: #ffffff;
+	background: none;
+	border: 0px;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	resize: none;
+}
