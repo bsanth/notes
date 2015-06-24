@@ -1,21 +1,15 @@
-<html>
+<html ng-app="notesApp">
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 		<link href="css/index.css" rel="stylesheet">
 	</head>
 	<body>
 		
-		<div id="content-div">
-			<div id="title-div">
-				
-			</div>
-			<div id="notes-div">
-				<textarea id="notes" placeholder="Notes" autofocus></textarea>
-			</div>
-		</div>
+		<div ui-view></div>
 		
 		<script src="bower_components/angular/angular.js"></script>
 		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-		<script src="js/index.js"></script>
+		<script src="js/app.js"></script>
+		<script src="views/notesController.js"></script>
 	</body>
 </html>
