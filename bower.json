@@ -1,0 +1,21 @@
+{
+  "name": "notes",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bsanth/notes",
+  "authors": [
+    "Santhosh Kumar Bala Krishnan"
+  ],
+  "description": "Simple notes app",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.15"
+  }
+}
